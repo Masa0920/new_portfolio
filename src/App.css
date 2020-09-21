@@ -1,3 +1,249 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url(../src/static/images/snow-background.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+/* width */
+.w50 {
+  display: inline-block;
+  width: 50px;
+  margin: 0 auto;
+}
+.w100 {
+display: inline-block;
+width: 100px;
+margin: 0 auto;
+}
+.w150 {
+display: inline-block;
+width: 150px;
+margin: 0 auto;
+}
+.w100p {
+width: 100%;
+}
+.w200 {
+display: inline-block;
+width: 200px;
+margin: 0 auto;
+}
+.w250 {
+display: inline-block;
+width: 250px;
+margin: 0 auto;
+}
+.w300 {
+display: inline-block;
+width: 300px;
+margin: 0 auto;
+}
+.w400 {
+display: inline-block;
+width: 400px;
+margin: 0 auto;
+}
+.w450 {
+display: inline-block;
+width: 450px;
+margin: 0 auto;
+}
+.w500 {
+display: inline-block;
+width: 500px;
+margin: 0 auto;
+}
+
+/* padding */
+.padding5 {padding: 5px;}
+.padding10 {padding: 10px;}
+.padding20 {padding: 20px;}
+.padding1020 {padding: 10px 20px;}
+
+/* margin */
+.margin-auto {margin: 0 auto;}
+.margin5 {margin: 5px;}
+.margin05 {margin: 0 5px;}
+.margin10 {margin: 10px;}
+.margin20 {margin: 20px;}
+
+/* 背景設定用 */
+.back-grey {background-color: rgb(240, 240, 240);}
+.back-grey2 {background-color: rgb(220, 220, 220);}
+.back-silver {background-color: silver;}
+.back-white {background-color: white;}
+.back-skyblue {background-color: skyblue;}
+/* .back- {background-color: ;} */
+
+/* border */
+.border {
+border-radius: 10px;
+}
+.border-grey {
+border: solid 2px rgb(240, 240, 240);
+border-radius: 10px;
+}
+.border-grey2 {
+border: solid 2px rgb(220, 220, 220);
+border-radius: 10px;
+}
+.border-black {
+border: solid 4px black;
+border-radius: 10px;
+}
+.border-blue {
+border: solid 2px blue;
+border-radius: 10px;
+}
+.border-green {
+border: solid 2px Green;
+border-radius: 10px;
+}
+.border-blueviolet {
+  border: solid 8px blueviolet;
+  border-radius: 20px;
+}
+/* .border {
+border: solid px ;
+border-radius: 10px;
+} */
+
+/* color */
+.blue {color: blue;}
+.green{color: green;}
+.red{color: red;}
+.pink{color: rgb(255, 0, 255);}
+/* . {color: ;} */
+
+/* fontsize */
+.font-size-small {font-size: 14px;}
+.font-size-20 {font-size: 20px;}
+.font-size-h2 {font-size: 24px;}
+.font-size-h1 {font-size: 32px;}
+/* .font-size- {font-size: px;} */
+
+/* fontweight */
+.font-weight-600 {font-weight: 600;}
+
+/* display */
+.flex-wrap {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.flex {display: flex;}
+.flex-grow1 {flex-grow: 1;}
+.inline-block {display: inline-block;}
+
+/* textAlign */
+.right {text-align: right;}
+.left {text-align: left;}
+.center {text-align: center;}
+
+/* position */
+.relative {position: relative;}
+.absolute {
+position: absolute;
+}
+.absolute-top {
+position: absolute;
+top: 0;
+left: 0;
+}
+.absolute-bottom {
+position: absolute;
+bottom: 5px;
+right: 20px;
+}
+.absolute3 {
+position: absolute;
+right: 50px;
+top: 5px;
+}
+.absolute2 {
+position: absolute;
+bottom: 10px;
+}
+
+/* 骨格 */
+.content {
+width: 90%;
+max-width: 1500px;
+margin: 20px auto;
+}
+.blank {
+  height: 50px;
+}
+.blank-small  {
+height: 30px;
+}
+
+/* img */
+.img-contain {object-fit: contain;}
+.img-cover {object-fit: cover;}
+/* z-index */
+.z1 {z-index: 1;}
+.z2 {z-index: 2;}
+.z3 {z-index: 3;}
+
+/* じかあて */
+
+
+/* hover */
+.h-reverse:hover {
+color: white;
+background-color: skyblue;
+cursor: pointer;
+}
+.h-reverse-black:hover {
+color: white;
+background-color: black;
+cursor: pointer;
+}
+.h-reverse-grey2:hover {
+/* color: white; */
+background-color: rgb(220, 220, 220);
+cursor: pointer;
+}
+/* .h-reverse:hover {
+color: ;
+background-color: ;
+cursor: pointer;
+} */
+
+.none {
+display: none;
+}
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.overflow-auto {
+  overflow: auto;
+  height: 80%;
+}
+
+.w90vh {
+  width: 90vw;
+  border-radius: 20px;
+}
+
+.w600 {
+  width: 600px;
+}
+.simpleslider img {
+  height: 200px;
+  width: 100vw;
+  object-fit: cover;
 }

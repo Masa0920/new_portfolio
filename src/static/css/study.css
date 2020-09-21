@@ -1,0 +1,43 @@
+/* workscontent */
+.container {
+margin: 10px auto;
+}
+.container h3 {
+color: blueviolet;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+line-height: 40px;
+}
+.containerleft {
+margin-top: 5px;
+position: relative;
+right: 40px;
+}
+.container .date {
+width: 188px;
+}
+.img {
+text-align: center;
+}
+.img img{
+width: 250px;
+background-color: blue;
+margin: 0 auto;
+}
+
+/* detailbutton */
+.detailbutton {
+   display: inline-block;
+   padding: 0 5px;
+   color: rgb(255, 0, 255);
+   border: solid 2px rgb(255, 0, 255);
+   cursor: pointer;
+}
+.detailbutton:hover {
+   background-color: rgb(255, 0, 255);
+   color: white;
+}
+.modalsp {
+   background: linear-gradient(skyblue, white);
+}
