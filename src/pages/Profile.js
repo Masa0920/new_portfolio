@@ -6,14 +6,14 @@ const Profile = () => {
          <div className="blank"></div>
          <h3>Masashige Hayashi</h3>
          <div className="margin10"></div>
-         <div className="border-black w600 margin-auto padding10 back-white">
+         <div className="res border-black w600 margin-auto padding10 back-white">
             <h3>所属</h3>
             <p>北海道大学　情報エレクトロニクス学科　メディアネットワークコース 2年</p>
             <p>北海道大学IT研究会　科技大LTサークル</p>
             <p></p>
          </div>
          <div className="blank"></div>
-         <div className="border-black w600 margin-auto padding10 back-white">
+         <div className="res border-black w600 margin-auto padding10 back-white">
             <h3>自己紹介</h3>
             <div className="left padding10">
                <p className="font-weight-600">基本情報</p>

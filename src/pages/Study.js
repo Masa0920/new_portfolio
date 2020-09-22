@@ -8,7 +8,7 @@ import WorksContent from '../components/WorksContent'
 
 const Study = () => {
    return (
-      <div id='works' className='w90vh margin-auto'>
+      <div id='works' className='w70vw margin-auto'>
          <div className="blank"></div>
          <div className='flex-wrap padding10 border'>
             <WorksContent title='menu tabel' index='1' date='6/11~6/13' img={Menu} h2={"メニュー表作り"} desc={"html cssを使って何かを作るのが初めてだったので何とか作れたという感じでした。それだけに、作成後簡単にスタイリングする技を教えてもらった時の印象が大きかったです。"}/>

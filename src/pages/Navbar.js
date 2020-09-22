@@ -5,13 +5,15 @@ import {useState} from 'react'
 
 const Navbar = () => {
 
-   const [click1, setClick1] = useState(false);
+   const [click1, setClick1] = useState(true);
+   const [count, setCount] = useState(0);
    const [click2, setClick2] = useState(false);
    const [click3, setClick3] = useState(false);
    const handleClick1 = () => {
-      setClick1(!click1);
+      if(count!==0){setClick1(!click1)};
       setClick2(false);
       setClick3(false);
+      setCount(count+1);
    } 
    const handleClick2 = () => {
       setClick2(!click2);

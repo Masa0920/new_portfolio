@@ -238,6 +238,10 @@ display: none;
   width: 90vw;
   border-radius: 20px;
 }
+.w70vw {
+  width: 70vw;
+  border-radius: 20px;
+}
 
 .w600 {
   width: 600px;
@@ -246,4 +250,12 @@ display: none;
   height: 200px;
   width: 100vw;
   object-fit: cover;
+}
+@media(max-width:768px) {
+  .res {
+    width: 300px;
+  }
+  .blank {
+    height: 20px;
+  }
 }
