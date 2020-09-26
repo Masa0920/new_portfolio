@@ -1,8 +1,9 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const Profile = () => {
    return (
-      <div className="w90vh margin-auto">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="w90vh margin-auto">
          <div className="blank"></div>
          <h3>Masashige Hayashi</h3>
          <div className="margin10"></div>
@@ -33,7 +34,7 @@ const Profile = () => {
             </div>
          </div>
          <div className="blank"></div>
-      </div>
+      </motion.div>
    )
 }
 

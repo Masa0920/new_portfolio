@@ -19,18 +19,20 @@ const Navbar = () => {
       setClick2(!click2);
       setClick1(false);
       setClick3(false);
+      setCount(count+1);
    } 
    const handleClick3 = () => {
       setClick3(!click3);
       setClick2(false);
       setClick1(false);
+      setCount(count+1);
    }
 
    return (
-      <div className="navbar border">
-         <Link className="h-reverse border" to="/" ><h2 onClick={handleClick1} className={click1 ? "back-skyblue border padding10" : "padding10"}>Profile</h2></Link>
-         <Link className="h-reverse border" to="/study" ><h2 onClick={handleClick2} className={click2 ? "back-skyblue border padding10" : "padding10"}>勉強記録</h2></Link>
-         <Link className="h-reverse border" to="/hobby" ><h2 onClick={handleClick3} className={click3 ? "back-skyblue border padding10" : "padding10"}>趣味</h2></Link>
+      <div className="navbar">
+         <Link className="h-reverse" to="/" ><h2 onClick={handleClick1} className={click1 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>Profile</h2></Link>
+         <Link className="h-reverse" to="/study" ><h2 onClick={handleClick2} className={click2 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>勉強記録</h2></Link>
+         <Link className="h-reverse" to="/hobby" ><h2 onClick={handleClick3} className={click3 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>趣味</h2></Link>
       </div>
    )
 }

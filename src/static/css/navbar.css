@@ -1,26 +1,28 @@
 .navbar {
-   margin: 0 auto;
+   margin: -10px auto 0 auto;
    justify-content: center;
    display: flex;
-   width: 450px;
+   padding: 20px 0;
+   background-color: #222;
 }
 .navbar h2 {
    text-align: center;
    width: 150px;
    font-weight: 800;
+   font-size: 20px;
    cursor: pointer;
 }
 .navbar a {
    text-decoration: none;
-   color: black;
+   border: 2px rgba(255,255,255,0.5) solid;
+   transition: all 0.1s linear;
+   color: white;
+   margin: 0 10px;
 }
 
 @media(max-width: 768px) {
-   .navbar {
-      width: 300px;
-   }
    .navbar h2 {
       width: 80px;
-      font-size: 20px;
+      font-size: 16px;
    }
 }

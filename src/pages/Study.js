@@ -5,10 +5,11 @@ import ELMS from '../static/images/ELMS.png'
 import Dental from '../static/images/Dental.JPG'
 import iSara from '../static/images/iSara.png'
 import WorksContent from '../components/WorksContent'
+import { motion } from "framer-motion";
 
 const Study = () => {
    return (
-      <div id='works' className='w70vw margin-auto'>
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}  className='w70vw margin-auto'>
          <div className="blank"></div>
          <div className='flex-wrap padding10 border'>
             <WorksContent title='menu tabel' index='1' date='6/11~6/13' img={Menu} h2={"メニュー表作り"} desc={"html cssを使って何かを作るのが初めてだったので何とか作れたという感じでした。それだけに、作成後簡単にスタイリングする技を教えてもらった時の印象が大きかったです。"}/>
@@ -17,7 +18,7 @@ const Study = () => {
             <WorksContent title='Dental Clnic' index='4' date='6/16~6/21' img={Dental} h2={"Dental Clinicのサイト模写"} desc={"写真の入れ方やその調整法を学びました。また、レスポンシブもはじめてつけました。navbar,futter,tableなどいろんなstyleの復習にもなりました。"} />
             <WorksContent title='iSara' index='5' date='6/21~7/1' img={iSara} h2={"iSaraのサイト模写"} desc={"とても長いサイトで途中で終わるのかどうか心配になりましたが、大枠を作ってから細かくスタイリングしていくという方法で、くじけず作ることができました。本格的なサイト作成の考え方を学べました。"} />
          </div>
-      </div>
+      </motion.div>
    )
 }
 

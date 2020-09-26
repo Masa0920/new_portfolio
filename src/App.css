@@ -3,9 +3,10 @@
   width: 100vw;
   height: 100%;
   min-height: 100vh;
-  background-image: url(../src/static/images/snow-background.jpg);
+  background-image: url(../src/static/images/light-flare-background-min.jpg);
   /* background-repeat: no-repeat; */
   background-size: cover;
+  background-position: center;
 }
 /* width */
 .w50 {
@@ -65,6 +66,7 @@ margin: 0 auto;
 
 /* margin */
 .margin-auto {margin: 0 auto;}
+.margin10-auto {margin: 10px auto;}
 .margin5 {margin: 5px;}
 .margin05 {margin: 0 5px;}
 .margin10 {margin: 10px;}
@@ -80,31 +82,31 @@ margin: 0 auto;
 
 /* border */
 .border {
-border-radius: 10px;
+border-radius: 5px;
 }
 .border-grey {
 border: solid 2px rgb(240, 240, 240);
-border-radius: 10px;
+border-radius: 5px;
 }
 .border-grey2 {
 border: solid 2px rgb(220, 220, 220);
-border-radius: 10px;
+border-radius: 5px;
 }
 .border-black {
 border: solid 4px black;
-border-radius: 10px;
+border-radius: 5px;
 }
 .border-blue {
 border: solid 2px blue;
-border-radius: 10px;
+border-radius: 5px;
 }
 .border-green {
 border: solid 2px Green;
-border-radius: 10px;
+border-radius: 5px;
 }
 .border-blueviolet {
-  border: solid 8px blueviolet;
-  border-radius: 20px;
+  border: solid 4px blueviolet;
+  border-radius: 5px;
 }
 /* .border {
 border: solid px ;
@@ -112,7 +114,9 @@ border-radius: 10px;
 } */
 
 /* color */
+.white {color: white;}
 .blue {color: blue;}
+.skyblue {color: skyblue;}
 .green{color: green;}
 .red{color: red;}
 .pink{color: rgb(255, 0, 255);}
@@ -121,6 +125,7 @@ border-radius: 10px;
 /* fontsize */
 .font-size-small {font-size: 14px;}
 .font-size-20 {font-size: 20px;}
+.font-size-100 {font-size: 100px;}
 .font-size-h2 {font-size: 24px;}
 .font-size-h1 {font-size: 32px;}
 /* .font-size- {font-size: px;} */
@@ -135,6 +140,10 @@ flex-wrap: wrap;
 justify-content: space-around;
 }
 .flex {display: flex;}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 .flex-grow1 {flex-grow: 1;}
 .inline-block {display: inline-block;}
 
@@ -216,6 +225,7 @@ cursor: pointer;
 
 .none {
 display: none;
+width: -100px;
 }
 .modal {
   width: 100vw;
@@ -251,6 +261,17 @@ display: none;
   width: 100vw;
   object-fit: cover;
 }
+
+/* fade-in */
+.fade-in {
+  background-color: #61DAFB;
+  color: #222;
+  transition: background-color 300ms ease-out;
+}
+.fade-out {
+  background-color: #222;
+}
+
 @media(max-width:768px) {
   .res {
     width: 300px;
