@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Hobby = () => {
    return (
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="w90vh margin-auto ">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="w700 margin-auto ">
          <div className="blank"></div>
          <div className="flex-wrap">
             <HobbyCard font="far fa-futbol" hobby="フットサル" hobby_detail="IT研の人たちのサッカーに興味ある人たちで集まって月何回かやっています。" />

@@ -57,6 +57,21 @@ display: inline-block;
 width: 500px;
 margin: 0 auto;
 }
+.w90vw {
+  width: 90vw;
+  border-radius: 20px;
+}
+.w70vw {
+  width: 70vw;
+  border-radius: 20px;
+}
+
+.w600 {
+  width: 600px;
+}
+.w700 {
+  width: 700px;
+}
 
 /* padding */
 .padding5 {padding: 5px;}
@@ -115,10 +130,10 @@ border-radius: 10px;
 
 /* color */
 .white {color: white;}
-.blue {color: blue;}
 .skyblue {color: skyblue;}
-.green{color: green;}
-.red{color: red;}
+.blue {color: #007bff;}
+.green{color: #28a745;}
+.red{color: #dc3545;}
 .pink{color: rgb(255, 0, 255);}
 /* . {color: ;} */
 
@@ -224,8 +239,8 @@ cursor: pointer;
 } */
 
 .none {
-display: none;
-width: -100px;
+  display: none;
+  background-color: white;
 }
 .modal {
   width: 100vw;
@@ -237,24 +252,12 @@ width: -100px;
   justify-content: center;
   align-items: center;
   background-color: rgba(0,0,0, 0.5);
+  transition: all 300ms ease-out;
 }
 
 .overflow-auto {
   overflow: auto;
   height: 80%;
-}
-
-.w90vh {
-  width: 90vw;
-  border-radius: 20px;
-}
-.w70vw {
-  width: 70vw;
-  border-radius: 20px;
-}
-
-.w600 {
-  width: 600px;
 }
 .simpleslider img {
   height: 200px;

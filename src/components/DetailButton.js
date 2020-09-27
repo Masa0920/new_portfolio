@@ -10,7 +10,7 @@ const DetailButton = (props) => {
    return (
       <div>
          <p className="detailbutton font-weight-600 border" onClick={handleClick}>やってみた感想</p>
-         <div onClick={handleClick} className= { showModal ? "modal z2" : "none"}>
+         <div onClick={handleClick} className= { showModal ? "modal z2" : "none"} >
             <div className="modalsp border padding10 w300">
                <h2> {props.h2} </h2>
                <p className="font-weight-600"> {props.desc} </p>
