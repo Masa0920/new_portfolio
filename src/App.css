@@ -59,11 +59,11 @@ margin: 0 auto;
 }
 .w90vw {
   width: 90vw;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .w70vw {
   width: 70vw;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .w600 {
@@ -240,7 +240,6 @@ cursor: pointer;
 
 .none {
   display: none;
-  background-color: white;
 }
 .modal {
   width: 100vw;
@@ -258,21 +257,6 @@ cursor: pointer;
 .overflow-auto {
   overflow: auto;
   height: 80%;
-}
-.simpleslider img {
-  height: 200px;
-  width: 100vw;
-  object-fit: cover;
-}
-
-/* fade-in */
-.fade-in {
-  background-color: #61DAFB;
-  color: #222;
-  transition: background-color 300ms ease-out;
-}
-.fade-out {
-  background-color: #222;
 }
 
 @media(max-width:768px) {

@@ -1,3 +1,8 @@
 .simpleslider {
    width: 100vw;
 }
+.simpleslider img {
+   height: 200px;
+   width: 100vw;
+   object-fit: cover;
+}

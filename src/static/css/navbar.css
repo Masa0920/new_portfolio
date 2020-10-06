@@ -19,6 +19,14 @@
    color: white;
    margin: 0 10px;
 }
+.fade-in {
+   background-color: #61DAFB;
+   color: #222;
+   transition: background-color 300ms ease-out;
+}
+.fade-out {
+   background-color: #222;
+}
 
 @media(max-width: 768px) {
    .navbar h2 {

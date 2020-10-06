@@ -1,9 +1,9 @@
 import React from 'react'
-import Menu from '../static/images/menyu.JPG'
-import apple from '../static/images/apple.png'
-import ELMS from '../static/images/ELMS.png'
-import Dental from '../static/images/Dental.JPG'
-import iSara from '../static/images/iSara.png'
+import Menu from '../static/images/study/menyu.JPG'
+import apple from '../static/images/study/apple.png'
+import ELMS from '../static/images/study/ELMS.png'
+import Dental from '../static/images/study/Dental.JPG'
+import iSara from '../static/images/study/iSara.png'
 import WorksContent from '../components/WorksContent'
 import { motion } from "framer-motion";
 
