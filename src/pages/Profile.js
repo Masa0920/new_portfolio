@@ -18,7 +18,7 @@ const Profile = () => {
             <h3>自己紹介</h3>
             <div className="left padding10">
                <p className="font-weight-600">基本情報</p>
-               <p>1998年9月20日生まれ22歳　埼玉県出身</p>
+               <p>1998年9月20日生まれ　埼玉県出身</p>
                <p className="font-weight-600">大学受験</p>
                <p>医学部を目指し２浪をするも合格できず、１浪め２浪めの伸びから限界を感じ北海道大学に入学。</p>
                <p className="font-weight-600">大学1年</p>
