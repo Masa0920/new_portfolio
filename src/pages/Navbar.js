@@ -36,10 +36,10 @@ const Navbar = () => {
 
    return (
       <div className="navbar">
-         <Link className="h-reverse" to="/" ><h2 onClick={handleClick1} className={click1 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>Profile</h2></Link>
-         <Link className="h-reverse" to="/study" ><h2 onClick={handleClick2} className={click2 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>勉強記録</h2></Link>
-         <Link className="h-reverse" to="/works" ><h2 onClick={handleClick3} className={click3 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>実務経験</h2></Link>
-         <Link className="h-reverse" to="/hobby" ><h2 onClick={handleClick4} className={click4 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>趣味</h2></Link>
+         <Link onClick={handleClick1} className="h-reverse" to="/" ><h2  className={click1 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>Profile</h2></Link>
+         <Link onClick={handleClick2} className="h-reverse" to="/study" ><h2 className={click2 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>勉強記録</h2></Link>
+         <Link onClick={handleClick3} className="h-reverse" to="/works" ><h2 className={click3 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>実務経験</h2></Link>
+         <Link onClick={handleClick4} className="h-reverse" to="/hobby" ><h2 className={click4 ? "back-skyblue padding10 fade-in" : "fade-out padding10"}>趣味</h2></Link>
       </div>
    )
 }
