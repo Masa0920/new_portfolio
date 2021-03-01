@@ -207,12 +207,8 @@ width: 90%;
 max-width: 1500px;
 margin: 20px auto;
 }
-.blank {
-  height: 50px;
-}
-.blank-small  {
-height: 30px;
-}
+.blank {height: 50px;}
+.blank-small  {height: 30px;}
 
 /* img */
 .img-contain {object-fit: contain;}
