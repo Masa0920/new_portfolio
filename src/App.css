@@ -178,9 +178,7 @@ flex-wrap: wrap;
 
 /* position */
 .relative {position: relative;}
-.absolute {
-position: absolute;
-}
+.absolute {position: absolute;}
 .absolute-top {
 position: absolute;
 top: 0;
